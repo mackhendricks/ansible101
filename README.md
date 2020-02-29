@@ -45,7 +45,7 @@ ansible -i inventory_hosts  all -m ping --extra-vars "ansible_user=root ansible_
 
 Run the command below to create a playbook
 
-***We are using a shared set of servers.  So, feel free to install something other this nginx.  Only one person will be able to install nginx ***
+**We are using a shared set of servers.  So, feel free to install something other this nginx.  Only one person will be able to install nginx **
 
 ```
 echo "---
@@ -67,7 +67,7 @@ ansible-playbook  -i  inventory_hosts play1.yml --check --extra-vars "ansible_us
 
 Execute the play
 
-***We are using a shared set of servers.  So, feel free to install something other this nginx.  Only one person will be able to install nginx ***
+**We are using a shared set of servers.  So, feel free to install something other this nginx.  Only one person will be able to install nginx**
 
 ```
 ansible-playbook  -i  inventory_hosts play1.yml --extra-vars "ansible_user=root ansible_password=hwthdc2020"
