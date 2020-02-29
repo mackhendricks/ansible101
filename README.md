@@ -1,4 +1,8 @@
-## Install Python3 and VirtualEnv (optional)
+## Install Python3 and VirtualEnv (for Mac)
+
+1. Open a terminal 
+
+2. Run the following commands
 
 ```
 brew update
